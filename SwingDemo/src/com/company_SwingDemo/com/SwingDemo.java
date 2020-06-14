@@ -8,8 +8,14 @@ public class SwingDemo {
         //Give it a size
         jFrame.setSize(275,100);
 
-        //Terminatte the program when the user close the application
+        //Terminate the program when the user close the application
         jFrame.setDefaultCloseOperation(jFrame.EXIT_ON_CLOSE);
+
+        //Create a JLabel
+        JLabel jLabel=new JLabel("Wow This is Amazing!");
+
+        //Add the JLabel in JFrame
+        jFrame.add(jLabel);
 
         //Show it
         jFrame.setVisible(true);
