@@ -34,8 +34,8 @@ public class LabelDemo extends JFrame{
      f=new Font("Arial",Font.BOLD,20);
      
       //jlabel create and add
-     label1 =new JLabel();
-     label1.setText("Hi Nahid Hasan!");
+     label1 =new JLabel("Hi Nahid Hasan!");
+    // label1.setText("Hi Nahid Hasan!");
      label1.setBounds(50,20,200,50);
      //add font
      label1.setFont(f);
@@ -50,8 +50,8 @@ public class LabelDemo extends JFrame{
      //add label into container
      c.add(label1);
     
-     label2 =new JLabel();
-     label2.setText("How are You?");
+     label2 =new JLabel("How are You?");
+    // label2.setText("How are You?");
      label2.setBounds(50,80,200,50);
      //add font
      label2.setFont(f);

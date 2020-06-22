@@ -26,3 +26,5 @@ hs_err_pid*
 /Swing/dist/
 /JLabel/nbproject/private/
 /JLabel/build/
+/TextField/nbproject/private/
+/TextField/build/
