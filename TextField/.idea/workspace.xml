@@ -1,26 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54f36db8-e113-4e5a-ac0b-255d2e74e01e" name="Default Changelist" comment="" />
+    <list default="true" id="54f36db8-e113-4e5a-ac0b-255d2e74e01e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ActionDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ActionDemo/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ActionDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ActionDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ActionDemo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ActionDemo/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ActionDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ActionDemo/ActionDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ActionDemo/src/com/Action_Demo/company/ActionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextField.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TextField.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1dgifnmE4GRkauYKHRZhQWzUlw6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java_Code/ButtonSwing" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Java_Code\TextField" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\TextField\src\com\FrameDemo\company" />
     </key>
@@ -55,39 +86,46 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1592855097560">
+    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1592935594151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592855097560" />
-    <state width="902" height="264" key="GridCell.Tab.0.bottom" timestamp="1592856762051">
+    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592935594151" />
+    <state width="1865" height="265" key="GridCell.Tab.0.bottom" timestamp="1592935890896">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="902" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592856762051" />
-    <state width="902" height="264" key="GridCell.Tab.0.center" timestamp="1592856762051">
+    <state width="1865" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592935890896" />
+    <state width="1865" height="265" key="GridCell.Tab.0.center" timestamp="1592935890896">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="902" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592856762051" />
-    <state width="902" height="264" key="GridCell.Tab.0.left" timestamp="1592856762050">
+    <state width="1865" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592935890896" />
+    <state width="1865" height="265" key="GridCell.Tab.0.left" timestamp="1592935890895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="902" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592856762050" />
-    <state width="902" height="264" key="GridCell.Tab.0.right" timestamp="1592856762051">
+    <state width="1865" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592935890895" />
+    <state width="1865" height="265" key="GridCell.Tab.0.right" timestamp="1592935890896">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="902" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592856762051" />
+    <state width="1865" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592935890896" />
     <state width="314" height="242" key="RunAnythingAction_Filter_Popup" timestamp="1592854760625">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="314" height="242" key="RunAnythingAction_Filter_Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592854760625" />
-    <state x="624" y="0" key="SettingsEditor" timestamp="1592854785858">
+    <state x="624" y="0" key="SettingsEditor" timestamp="1592935565431">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="624" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592854785858" />
-    <state x="1071" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1592856736657">
+    <state x="624" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592935565431" />
+    <state x="1071" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1592934973777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1071" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592856736657" />
+    <state x="1071" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592934973777" />
+    <state x="249" y="106" key="new project wizard" timestamp="1592935616967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="249" y="106" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592935616967" />
     <state x="1012" y="240" key="run.anything.popup" timestamp="1592854760629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
