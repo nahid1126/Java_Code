@@ -11,7 +11,7 @@ public class TextField extends JFrame {
 
     private Container c;
     private JTextField tf1,tf2;
-    private JLabel l;
+    private JLabel l,l2;
     private Font f;
     private ImageIcon i;
 
@@ -57,10 +57,34 @@ public class TextField extends JFrame {
         tf2.setFont(f);
         c.add(tf2);
 
+        ButtonGroup grp=new ButtonGroup();
+        JRadioButton m,fe;
+        l2=new JLabel("Select Gender :");
+        l2.setBounds(100,155,130,30);
+        l2.setForeground(Color.YELLOW);
+        l2.setFont(f);
+        c.add(l2);
+
+        m=new JRadioButton("Male");
+        m.setBounds(180,180,70,20);
+        m.setFont(f);
+        m.setBackground(Color.DARK_GRAY);
+        m.setForeground(Color.YELLOW);
+        c.add(m);
+        fe=new JRadioButton("Female");
+        fe.setBounds(300,180,90,20);
+        fe.setBackground(Color.DARK_GRAY);
+        fe.setForeground(Color.YELLOW);
+        fe.setFont(f);
+        c.add(fe);
+
+        grp.add(m);
+        grp.add(fe);
+
         f=new Font("Arial",Font.BOLD,17);
         JButton submit=new JButton("Submit");
         submit.setBackground(Color.green);
-        submit.setBounds(250,160,100,30);
+        submit.setBounds(250,220,100,30);
         submit.setFont(f);
         c.add(submit);
     }
