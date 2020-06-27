@@ -65,6 +65,7 @@ public class TextField extends JFrame {
         l2.setFont(f);
         c.add(l2);
 
+        //create and add jradio button
         m=new JRadioButton("Male");
         m.setBounds(180,180,70,20);
         m.setFont(f);
@@ -78,6 +79,7 @@ public class TextField extends JFrame {
         fe.setFont(f);
         c.add(fe);
 
+        //adding jradio button selection
         grp.add(m);
         grp.add(fe);
 
