@@ -85,10 +85,52 @@ public class ActionDemo extends JFrame {
             }
         });*/
 
+         ButtonGroup grp=new ButtonGroup();
+        l2=new JLabel("Select Gender :");
+        l2.setBounds(100,155,130,30);
+        l2.setForeground(Color.YELLOW);
+        l2.setFont(f);
+        c.add(l2);
+
+        m=new JRadioButton("Male");
+        m.setBounds(180,180,70,20);
+        m.setFont(f);
+        m.setBackground(Color.DARK_GRAY);
+        m.setForeground(Color.YELLOW);
+        c.add(m);
+        fe=new JRadioButton("Female");
+        fe.setBounds(300,180,90,20);
+        fe.setBackground(Color.DARK_GRAY);
+        fe.setForeground(Color.YELLOW);
+        fe.setFont(f);
+        c.add(fe);
+
+        grp.add(m);
+        grp.add(fe);
+
+        tf3= new JTextField();
+        tf3.setBounds(100,200,400,100);
+        tf3.setFont(f);
+        tf3.setBackground(Color.green);
+        c.add(tf3);
+
+        //adding comboBox
+        l3=new JLabel("Which Department You want to admit ?");
+        l3.setBounds(100,310,310,20);
+        l3.setForeground(Color.YELLOW);
+        l3.setFont(f);
+        c.add(l3);
+        String[] dept={"CSE","ECSE","EEE","TXT","BBA"};
+        box=new JComboBox(dept);
+        box.setBounds(150,340,90,40);
+        box.setEditable(true);
+        c.add(box);
+
+        //submit button
         f=new Font("Arial",Font.BOLD,17);
         JButton submit=new JButton("Submit");
         submit.setBackground(Color.green);
-        submit.setBounds(250,160,100,30);
+        submit.setBounds(250,390,100,30);
         submit.setFont(f);
         c.add(submit);
 
@@ -111,6 +153,16 @@ public class ActionDemo extends JFrame {
         tf1.addActionListener(con);
         tf2.addActionListener(con);
 
+    }
+	class Hendel implements ActionListener {
+        @Override
+        public void actionPerformed(ActionEvent actionEvent) {
+            if(m.isSelected()){
+                tf3.setText("Select male");
+            }else {
+                tf3.setText("Selected female");
+            }
+        }
     }
 
     //another way to add actionlistener
