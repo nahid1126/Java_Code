@@ -134,6 +134,10 @@ public class ActionDemo extends JFrame {
         submit.setFont(f);
         c.add(submit);
 
+	//actionlistener for radiobutton
+        Hendel hen= new Hendel();
+        m.addActionListener(hen);
+        fe.addActionListener(hen);
         //button actionListener
         submit.addActionListener(new ActionListener() {
             @Override
