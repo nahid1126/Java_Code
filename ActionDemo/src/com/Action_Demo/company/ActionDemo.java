@@ -151,6 +151,7 @@ public class ActionDemo extends JFrame {
                 if (s.isEmpty()){
                   if(s.isEmpty()){
                     JOptionPane.showMessageDialog(null,"Enter first and second Name");}
+			
                 }else{
                     JOptionPane.showMessageDialog(null,"Submit Done");
                 }
