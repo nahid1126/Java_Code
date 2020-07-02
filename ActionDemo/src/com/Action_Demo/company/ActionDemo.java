@@ -9,10 +9,12 @@ import java.awt.event.ActionListener;
 
 public class ActionDemo extends JFrame {
     private Container c;
-    public JTextField tf1,tf2;
-    private JLabel l;
+    public JTextField tf1,tf2,tf3;
+    private JLabel l,l2,l3;
     private Font f;
     private ImageIcon i;
+    private JRadioButton m,fe;
+    private JComboBox box;
     ActionDemo(){
         AnotherMe();
     }
@@ -85,7 +87,7 @@ public class ActionDemo extends JFrame {
             }
         });*/
 
-         ButtonGroup grp=new ButtonGroup();
+        ButtonGroup grp=new ButtonGroup();
         l2=new JLabel("Select Gender :");
         l2.setBounds(100,155,130,30);
         l2.setForeground(Color.YELLOW);
@@ -124,6 +126,7 @@ public class ActionDemo extends JFrame {
         box=new JComboBox(dept);
         box.setBounds(150,340,90,40);
         box.setEditable(true);
+        box.addItem("MBA");
         c.add(box);
 
         //submit button
@@ -134,10 +137,11 @@ public class ActionDemo extends JFrame {
         submit.setFont(f);
         c.add(submit);
 
-	//actionlistener for radiobutton
+        //actionlistener for radiobutton
         Hendel hen= new Hendel();
         m.addActionListener(hen);
         fe.addActionListener(hen);
+
         //button actionListener
         submit.addActionListener(new ActionListener() {
             @Override
@@ -157,8 +161,12 @@ public class ActionDemo extends JFrame {
         tf1.addActionListener(con);
         tf2.addActionListener(con);
 
+
+        //count combobox item
+        System.out.println("total items "+box.getItemCount());
+
     }
-	class Hendel implements ActionListener {
+    class Hendel implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent actionEvent) {
             if(m.isSelected()){
@@ -198,7 +206,7 @@ public class ActionDemo extends JFrame {
 	   ActionDemo frame= new ActionDemo();
 	   frame.setVisible(true);
 	   frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setBounds(600, 300, 600, 400);
+        frame.setBounds(600, 200, 600, 800);
         frame.setTitle("ActionListener Demo");
         frame.setResizable(false);
     }
