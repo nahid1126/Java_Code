@@ -89,7 +89,7 @@ public class MultiplicationTable extends JFrame {
 					inc=String.valueOf(i);
 
 					//add to text area
-					ta.append(n+" x "+i+" = "+r+"\n");
+					ta.append(n+" x "+inc+" = "+r+"\n");
 				}
 				}
 			}
