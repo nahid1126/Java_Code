@@ -28,3 +28,6 @@ hs_err_pid*
 /JLabel/build/
 /TextField/nbproject/private/
 /TextField/build/
+/Text_to_Speek/nbproject/private/
+/Text_to_Speek/build/
+/Text_to_Speek/dist/

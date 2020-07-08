@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_appswing" default="compile.module.appswing">
+  <dirname property="module.appswing.basedir" file="${ant.file.module_appswing}"/>
+  
+  <property name="module.jdk.home.appswing" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.appswing" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.appswing" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.appswing" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="appswing.output.dir" value="${module.appswing.basedir}/out/production/AppSwing"/>
+  <property name="appswing.testoutput.dir" value="${module.appswing.basedir}/out/test/AppSwing"/>
+  
+  <path id="appswing.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="appswing.module.production.classpath">
+    <path refid="${module.jdk.classpath.appswing}"/>
+  </path>
+  
+  <path id="appswing.runtime.production.module.classpath">
+    <pathelement location="${appswing.output.dir}"/>
+  </path>
+  
+  <path id="appswing.module.classpath">
+    <path refid="${module.jdk.classpath.appswing}"/>
+    <pathelement location="${appswing.output.dir}"/>
+  </path>
+  
+  <path id="appswing.runtime.module.classpath">
+    <pathelement location="${appswing.testoutput.dir}"/>
+    <pathelement location="${appswing.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.appswing">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.appswing">
+    <patternset refid="excluded.from.module.appswing"/>
+  </patternset>
+  
+  <path id="appswing.module.sourcepath">
+    <dirset dir="${module.appswing.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.appswing" depends="compile.module.appswing.production,compile.module.appswing.tests" description="Compile module AppSwing"/>
+  
+  <target name="compile.module.appswing.production" depends="register.custom.compilers" description="Compile module AppSwing; production classes">
+    <mkdir dir="${appswing.output.dir}"/>
+    <javac2 destdir="${appswing.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.appswing}/javac">
+      <compilerarg line="${compiler.args.appswing}"/>
+      <bootclasspath refid="appswing.module.bootclasspath"/>
+      <classpath refid="appswing.module.production.classpath"/>
+      <src refid="appswing.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.appswing"/>
+    </javac2>
+    
+    <copy todir="${appswing.output.dir}">
+      <fileset dir="${module.appswing.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.appswing.tests" depends="register.custom.compilers,compile.module.appswing.production" description="compile module AppSwing; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.appswing" description="cleanup module">
+    <delete dir="${appswing.output.dir}"/>
+    <delete dir="${appswing.testoutput.dir}"/>
+  </target>
+</project>
