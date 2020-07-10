@@ -81,7 +81,11 @@ public class NewJFrame extends javax.swing.JFrame {
         VoiceManager vm=VoiceManager.getInstance();
         voice=vm.getVoice("kevin16");
         voice.allocate();
+        
+        try{
         voice.speak(area.getText());
+        }catch(Exception e){
+        }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
