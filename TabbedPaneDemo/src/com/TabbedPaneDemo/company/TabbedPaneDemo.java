@@ -42,6 +42,10 @@ public class TabbedPaneDemo extends JFrame {
          jPanel3.add(jLabel3);
          jPanel3.setBackground(Color.YELLOW);
 
+         homei=new ImageIcon("src/icon/home.png");
+         abouti=new ImageIcon("src/icon/about.png");
+         contacti=new ImageIcon("src/icon/contact.png");
+
          jTabbedPane.addTab("Home",homei,jPanel1,"Home");
          jTabbedPane.addTab("About",abouti,jPanel2,"about");
          jTabbedPane.addTab("Contact",contacti,jPanel3,"Contact");
