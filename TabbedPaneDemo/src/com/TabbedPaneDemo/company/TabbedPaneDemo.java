@@ -63,6 +63,7 @@ public class TabbedPaneDemo extends JFrame {
         TabbedPaneDemo frame=new TabbedPaneDemo();
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+         
         frame.setTitle("Tabbed Demo");
         frame.setBounds(500,300,400,400);
     }
