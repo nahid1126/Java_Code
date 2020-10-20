@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ee7f6e4-e7c7-4f7f-aac3-1a7436a3c318" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LearningFile/FileTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearningFile/test.inp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearningFile/test.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearningFile/testClass.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0ee7f6e4-e7c7-4f7f-aac3-1a7436a3c318" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,26 +141,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1236" y="408" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1601457305369" />
-    <state x="1082" y="274" key="FileChooserDialogImpl" timestamp="1602171639165">
+    <state x="1082" y="274" key="FileChooserDialogImpl" timestamp="1602350900636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1082" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602171639165" />
-    <state width="914" height="301" key="GridCell.Tab.0.bottom" timestamp="1602350045072">
+    <state x="1082" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602350900636" />
+    <state width="914" height="301" key="GridCell.Tab.0.bottom" timestamp="1602350912763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602350045072" />
-    <state width="914" height="301" key="GridCell.Tab.0.center" timestamp="1602350045072">
+    <state width="914" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602350912763" />
+    <state width="914" height="301" key="GridCell.Tab.0.center" timestamp="1602350912763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="301" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602350045072" />
-    <state width="914" height="301" key="GridCell.Tab.0.left" timestamp="1602350045072">
+    <state width="914" height="301" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602350912763" />
+    <state width="914" height="301" key="GridCell.Tab.0.left" timestamp="1602350912763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="301" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602350045072" />
-    <state width="914" height="301" key="GridCell.Tab.0.right" timestamp="1602350045072">
+    <state width="914" height="301" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602350912763" />
+    <state width="914" height="301" key="GridCell.Tab.0.right" timestamp="1602350912763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="301" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602350045072" />
+    <state width="914" height="301" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602350912763" />
     <state width="914" height="344" key="GridCell.Tab.1.bottom" timestamp="1602263255736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -195,10 +189,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1136" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602342076530" />
-    <state x="685" y="140" key="new project wizard" timestamp="1601465975605">
+    <state x="685" y="140" key="new project wizard" timestamp="1602350906920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="685" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1601465975605" />
+    <state x="685" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1602350906920" />
     <state x="1182" y="148" key="refactoring.ChangeSignatureDialog" timestamp="1601463781155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
